@@ -27,7 +27,7 @@ Long-term the goal would be to fully automate this so videos are periodically cr
 
 Bonus plan: Optimize thumbnail clickability somehow.
 
-## Outstaind Questions
+## Outstanding Questions
 
 How to handle music? I'm kinda thinking Adobe Audition would be good to hook into because you can extend songs to virtually any duration.
 Doing it this way would mean that the amount of images is the sole determining factor of how long each video is which I kind of like. 
