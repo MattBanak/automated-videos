@@ -6,7 +6,7 @@ This is a project to automate video creation using common slideshow techniques f
 
 This project is inspired by ML and human memory theory.
 It's my hypothesis that viewing media similar to what you want to create, even very briefly in the case of images, will lead to drastically better creative output.
-I'm sure there are many applications this could be used for or tested on but I intend for this to "supercharge" my creativity and ability to improvise as a game master in Dungeons & Dragons.
+I'm sure there are many applications this could be used for or tested on but I intend for this to "supercharge" my creativity and ability in both worldbuilding and improvisation as a game master in Dungeons & Dragons.
 
 ## Getting Started
 
