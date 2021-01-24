@@ -2,13 +2,6 @@ var ae = require("after-effects");
 
 console.log("running...");
 
-// var project_name = ae(() => {
-//     if (app.project.file)
-//         return app.project.file.name;
-//     else
-//         return "(project not yet saved)";
-// });
-
 const images = [
     'C:/Users/banak/Pictures/tavern/image 1.jpg',
     'C:/Users/banak/Pictures/tavern/image 2.jpg',
@@ -78,9 +71,13 @@ ae.execute((secondsPerImage, totalTime, compositionName, images) =>
         // set the size of image (always meet vertical height)
         var scale = (composition.height / layer.height) * 100;
         layer.property("Scale").setValue([scale, scale]);
+
+        // TODO: add a duplicate layer, with a "frosty" filter, beneath the image if the media doesn't cover the entire canvas
     }
 
-    return 2;
+    // after-effects package was a little janky on Windows, return something to reduce errors
+    // later could use this to export things like final duration, maybe even project size? might be useful in a log
+    return "Still working fine.";
 
 }, secondsPerImage, totalTime, compositionName, images)
     .then((returnedValue) => {console.log(returnedValue);})
