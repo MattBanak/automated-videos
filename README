@@ -15,6 +15,18 @@ Create your own .env file and add your media root folder's absolute path, don't 
 
 The plan is to use Elasticsearch to get the images paths after categorizing them, so this will be much more relevant later.
 
+## The Plan
+
+Download a ton of creative D&D art that could legally be used on YouTube in a slideshow also store fair and proper attribution for the artist.
+Once a good collection of media is on deck, categorize all of it somehow (not necessarily programmatically).
+Use Elasticsearch to get a sub-collection from the main collection and render two slideshows, one normal one and one where each image is only shown for a max of .5 seconds.
+Programmatically build a video title and description, and upload the video to YouTube.
+
+Eventually, have a good method for categorizing/finding media effeciently and simply run a CLI command with a query to create, render, and upload YouTube videos.
+Long-term the goal would be to fully automate this so videos are periodically created and uploaded with no human interaction.
+
+Bonus plan: Optimize thumbnail clickability somehow.
+
 ## Outstaind Questions
 
 How to handle music? I'm kinda thinking Adobe Audition would be good to hook into because you can extend songs to virtually any duration.
