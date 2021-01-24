@@ -22,6 +22,8 @@ Once a good collection of media is on deck, categorize all of it somehow (not ne
 Use Elasticsearch to get a sub-collection from the main collection and render two slideshows, one normal one and one where each image is only shown for a max of .5 seconds.
 Programmatically build a video title and description, and upload the video to YouTube.
 
+Every image should have noticble, but not distracting, movement.
+
 Eventually, have a good method for categorizing/finding media effeciently and simply run a CLI command with a query to create, render, and upload YouTube videos.
 Long-term the goal would be to fully automate this so videos are periodically created and uploaded with no human interaction.
 
