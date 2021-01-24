@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "after-effects": "git+https://github.com/MattBanak/after-effects.git"
+    "after-effects": "git+https://github.com/MattBanak/after-effects.git",
+    "dotenv": "^8.2.0"
   }
 }
