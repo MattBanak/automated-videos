@@ -20,7 +20,7 @@ The plan is to use Elasticsearch to get the images paths after categorizing them
 Download a ton of creative D&D art that could legally be used on YouTube in a slideshow also store fair and proper attribution for the artist.
 Once a good collection of media is on deck, categorize all of it somehow (not necessarily programmatically).
 Use Elasticsearch to get a sub-collection from the main collection and render two slideshows, one normal one and one where each image is only shown for a max of .5 seconds.
-Programmatically build a video title and description, and upload the video to YouTube.
+Programmatically build a video title and description, and upload the video to YouTube. Note: Add a numeric ID to the description that can be parsed. Have an automated video takedown in case of copyright report.
 
 Every image should have noticble, but not distracting, movement.
 
