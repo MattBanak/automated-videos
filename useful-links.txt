@@ -1,0 +1,7 @@
+https://blogs.adobe.com/wp-content/blogs.dir/48/files/2012/06/After-Effects-CS6-Scripting-Guide.pdf?file=2012/06/After-Effects-CS6-Scripting-Guide.pdf
+
+Adobe's scripting docs are very dense, here are some easier to digest, but very incomplete, resources I've been using:
+(Please add more if you find any!)
+
+https://after-effects-scripting-guide.readthedocs.io/ (unofficial docs, incomplete but useful)
+https://creativecow.net/forums/forum/adobe-after-effects/ (indirect resource, this is a forum)
