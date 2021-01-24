@@ -49,6 +49,12 @@ ae.execute((secondsPerImage, totalTime, compositionName, images) =>
         {
             app.project.item(i).remove();
         }
+
+        // Folders can't be deleted if they have contents, so run it twice
+        for (var i = 1; i <= app.project.items.length; i++)
+        {
+            app.project.item(i).remove();
+        }
     }
 
     function importFile(location, aeFolder) {
@@ -64,7 +70,7 @@ ae.execute((secondsPerImage, totalTime, compositionName, images) =>
         return footageItem;
     }
 
-    // clearProject();
+    clearProject();
 
     var composition = app.project.items.addComp(compositionName, 1920, 1080, 1, totalTime, 24),
         imagesFolder = app.project.items.addFolder('Images');
