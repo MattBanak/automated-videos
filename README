@@ -1,0 +1,23 @@
+# Automated Videos
+
+This is a project to automate video creation using common slideshow techniques from categorized media by category.
+
+## Theory
+
+This project is inspired by ML and human memory theory.
+It's my hypothesis that viewing media similar to what you want to create, even very briefly in the case of images, will lead to drastically better creative output.
+I'm sure there are many applications this could be used for or tested on but I intend for this to "supercharge" my creativity and ability to improvise as a game master in Dungeons & Dragons.
+
+## Getting Started
+
+At the time of writing the program will create a composition of appropriate length and add images to it from an array of file paths.
+Create your own .env file and add your media root folder's absolute path, don't add anything to the /media folder in this repo.
+
+The plan is to use Elasticsearch to get the images paths after categorizing them, so this will be much more relevant later.
+
+## Outstaind Questions
+
+How to handle music? I'm kinda thinking Adobe Audition would be good to hook into because you can extend songs to virtually any duration.
+Doing it this way would mean that the amount of images is the sole determining factor of how long each video is which I kind of like. 
+
+How should outros be handled? Maybe have a pre-rendered outro and just toss it in there? Could probably be a lot more creative than that.
